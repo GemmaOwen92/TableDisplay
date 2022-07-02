@@ -5,6 +5,7 @@
 	<title>Table</title>
 	<link rel="stylesheet" type="text/css" href="TableDisplay.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="table.js"></script>
 	<meta name="author" content="GemmaOwen"/>
 	</head>
 	
@@ -71,6 +72,23 @@
 	</tr>
 	
 	</table>
+	
+	<p>Tables can also be used with javascript to provide a means of input</p>
+	
+	<p>Click the button to add a new name to the table</p>
+
+<p>First Name</p>
+<input type="text" name="fName" id="fName" />
+<p>Last Name</p>
+<input type="text" name="lName" id="lName" />
+<br>
+<button type="button" id="submit" onclick="myFunction()">Submit</button>
+<table id="myTable">
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+</tr>
+</table>
 	
 	
  </body>

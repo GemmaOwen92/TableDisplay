@@ -9,3 +9,15 @@ th, td {
 table.table2 {
 	color: blue;
 }
+
+#myTable {
+	border: solid black 1px;
+	width:300px;
+	margin:5px;
+	
+}
+
+#submit {
+	padding:5px;
+	margin: 5px;
+}
